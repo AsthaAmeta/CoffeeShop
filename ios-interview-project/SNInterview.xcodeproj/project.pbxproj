@@ -18,7 +18,6 @@
 		576E9C73234E7B9C00199B25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576E9C71234E7B9C00199B25 /* LaunchScreen.storyboard */; };
 		576E9C7E234E7B9C00199B25 /* SNInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576E9C7D234E7B9C00199B25 /* SNInterviewTests.swift */; };
 		576E9C89234EC08400199B25 /* CoffeeShops.json in Resources */ = {isa = PBXBuildFile; fileRef = 576E9C88234EC08400199B25 /* CoffeeShops.json */; };
-		576E9C8F234EF35F00199B25 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576E9C8E234EF35F00199B25 /* UIView+Additions.swift */; };
 		7A047B7426D997280031FC5E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7A047B7326D997280031FC5E /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +47,6 @@
 		576E9C7D234E7B9C00199B25 /* SNInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNInterviewTests.swift; sourceTree = "<group>"; };
 		576E9C7F234E7B9C00199B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576E9C88234EC08400199B25 /* CoffeeShops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CoffeeShops.json; sourceTree = "<group>"; };
-		576E9C8E234EF35F00199B25 /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
 		7A047B7326D997280031FC5E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +92,6 @@
 			children = (
 				576E9C68234E7B9900199B25 /* AppDelegate.swift */,
 				576E9C6A234E7B9900199B25 /* ViewController.swift */,
-				576E9C8E234EF35F00199B25 /* UIView+Additions.swift */,
 				576E9C88234EC08400199B25 /* CoffeeShops.json */,
 				576E9C6C234E7B9900199B25 /* Main.storyboard */,
 				576E9C6F234E7B9C00199B25 /* Assets.xcassets */,
@@ -221,7 +218,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				576E9C8F234EF35F00199B25 /* UIView+Additions.swift in Sources */,
 				576E9C6B234E7B9900199B25 /* ViewController.swift in Sources */,
 				09DEB8C2281BA7B700782D22 /* DataLoader.swift in Sources */,
 				09DEB8C4281BA7F600782D22 /* CoffeeShopData.swift in Sources */,

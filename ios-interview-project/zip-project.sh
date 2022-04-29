@@ -1,1 +1,0 @@
-zip -D -r ./servicenow-ios-project.zip .
