@@ -12,7 +12,6 @@ class CoffeeShopTableViewCell: UITableViewCell {
 
     @IBOutlet weak var reviewLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var ratingImageView: UIImageView!
     
     override func awakeFromNib() {

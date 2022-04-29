@@ -29,7 +29,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! CoffeeShopTableViewCell
         cell.nameLabel.text = coffeeShopData[indexPath.row].name
         cell.reviewLabel.text = "\(coffeeShopData[indexPath.row].review)"
-        cell.ratingLabel.text = "Rating: \(rating)"
         cell.ratingImageView.image = UIImage(named: "star-\(rating)")
         return cell
     }
